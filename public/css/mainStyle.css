@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
+body{
+    background-color: black;
+    color: white;
+    margin: 0%;
+    padding: 0%;
+    font-size: 1.25rem;
+    font-family: 'Outfit', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+    height: 25rem;
+}
+
+input{
+
+    height: 2.5rem;
+    width: 20rem;
+}
+
+.submit-btn{
+    width: 5rem;
+}
+
+.danger{
+    color: red;
+    font-size: 0.8rem;
+}
+.column
+{
+    display: flex;
+    flex-direction: column;
+}

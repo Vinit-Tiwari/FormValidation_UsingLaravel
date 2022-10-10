@@ -1,0 +1,11 @@
+.header-span{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+.row{
+    display: flex;
+    gap: 1.5rem;
+}
